@@ -1,0 +1,57 @@
+<html>
+<head>
+<script>
+function sample(){
+alert('RECORD SUBMITTED SUCCESSFULLY');
+alert(document.getElementById('fname').value);
+}
+</script>
+</head>
+ <h1 align=right><font color="yellow"> EMPLOYMENT DETAIL.. </h1>
+<form name="f" method="post">
+<body background="details.jpeg"> 
+<table border=2 align=right height="50%" width="10%">
+<tr>
+<form action="insert.jsp" method="post">
+<td> <h3><font color="yellow">FIRSTNAME:</h3></td>
+<td><input name="FIRSTNAME" id="fname">
+</td>
+</tr>
+<tr>
+<td> <h3><font color="yellow">LASTNAME:</h3></td>
+<td><input name="LASTNAME">
+</td>
+</tr>
+<tr>
+<td> <h3><font color="yellow">DATE OF BIRTH:</h3></td>
+<td><input TYPE name="DATE OF BIRTH">
+</td>
+</tr>
+<tr>
+<td> <h3><font color="yellow">PHONENUMBER:</h3></td>
+<td><input TYPE name="PHONENUMBER">
+</td>
+</tr>
+<tr>
+<td> <h3><font color="yellow">EMAILID:</h3></td>
+<td><input TYPE name="EMAILID">
+</td>
+</tr>
+<tr>
+<td> <h3><font color="yellow">Date of joined</h3></td>
+<td><input TYPE name="Date of joined">
+</td>
+</tr>
+<tr>
+<td> <h3><font color="yellow">year of experience</h3></td>
+<td><input TYPE name="year of experience">
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center" >
+<input type="submit" onclick=sample() value=SUBMIT>
+</td>
+</tr>
+</body>
+</form>
+</html>
